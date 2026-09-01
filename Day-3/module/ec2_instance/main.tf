@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "ap-south-1"
-}
 
 resource "aws_instance" "Example" {
   ami = var.ami_value
@@ -11,4 +8,3 @@ resource "aws_instance" "Example" {
   }
 
 }
-

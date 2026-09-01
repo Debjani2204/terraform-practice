@@ -8,7 +8,7 @@ variable "enable_ssh" {
   default = false
 }
 resource "aws_instance" "terraform_instance" {
-  ami           = "ami-0ac7b260cf76d8865"
+  ami           = "c"
   instance_type = "t3.micro"
   key_name = "ce-prod-key"
   tags = {
